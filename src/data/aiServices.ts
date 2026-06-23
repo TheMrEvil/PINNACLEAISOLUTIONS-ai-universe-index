@@ -11,6 +11,16 @@ export interface AIService {
 
 export const aiServices: AIService[] = [
   {
+    id: "auferet",
+    name: "Auferet",
+    description: "AI game master for solo text adventures and tabletop RPGs that remembers your story and reads your uploaded lore.",
+    url: "https://auferet.com",
+    category: "Chatbot",
+    tags: ["Roleplay", "Storytelling", "RPG", "Text Adventure"],
+    pricing: "Freemium",
+    featured: false
+  },
+  {
     id: "chatgpt",
     name: "ChatGPT",
     description: "OpenAI's powerful conversational AI that can help with writing, coding, analysis, and creative tasks.",
